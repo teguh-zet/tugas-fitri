@@ -1,0 +1,56 @@
+
+.header{
+  color: white ;
+  display: flex;
+  justify-content: space-between;
+}
+/* .list-planet{
+  background-color:white;
+  width: 10%;
+} */
+.header {
+  text-align: center;
+  padding: 20px;
+
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 40px;
+}
+.list-planet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.planet-item {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px; /* Adjust width as needed */
+  background-color: white;
+}
+
+.planet-item img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.planet-item h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.planet-item p {
+  font-size: 14px;
+  margin: 0;
+}
+body{
+  background-image:url(src/assets/bg.jpg);
+  background-repeat: no-repeat;
+}
