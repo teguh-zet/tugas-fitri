@@ -4,10 +4,7 @@
   display: flex;
   justify-content: space-between;
 }
-/* .list-planet{
-  background-color:white;
-  width: 10%;
-} */
+
 .header {
   text-align: center;
   padding: 20px;
@@ -30,7 +27,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   text-align: center;
-  width: 200px; /* Adjust width as needed */
+  width: 200px; 
   background-color: white;
 }
 
